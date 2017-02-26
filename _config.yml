@@ -1,15 +1,15 @@
 # Site settings
 title: Baritta's Just a little bit more technical
 motto: Just for fun
-email: noemail@domain.com
+#email: noemail@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://baritta.github.io" # the base hostname & protocol for your site
-twitter_username: None
-github_username:  None
+#twitter_username: None
+#github_username:  None
 
 # Build settings
 markdown: kramdown

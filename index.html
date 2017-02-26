@@ -1,18 +1,22 @@
 ---
-layout: page
-title: Blog
-subtitle: Baritta's blog entries
-sitemap:
-  priority: 0.9
+layout: default
 ---
 
-<ul class="list-posts">
+<div class="home">
+  <ul class="post-list">
     {% for post in site.posts %}
-        <li class="post-teaser">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <span class="post-teaser__title">{{ post.title }}</span>
-                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
-            </a>
-        </li>
+      <li>
+        <br>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
+        <hr id="line">
+		<div class="content">
+		{{ post.excerpt }}
+        </div>
+		<br>
+      </li>
     {% endfor %}
-</ul>
+  </ul>
+</div>

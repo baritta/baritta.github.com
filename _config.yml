@@ -13,3 +13,7 @@ url: "http://baritta.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+paginate: 10
+gems:
+  - jekyll-paginate

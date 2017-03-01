@@ -8,6 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://baritta.github.io" # the base hostname & protocol for your site
+permalink: /blog/:year/:month/:day/:title.html
+
 #twitter_username: None
 #github_username:  None
 
